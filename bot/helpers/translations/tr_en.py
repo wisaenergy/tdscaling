@@ -3,7 +3,7 @@ class EN(object):
 
     START_TEXT = """
 <b>Hi {}</b>,
-Welcome to Tidal DL Bot. Bot ini Untuk Download Tidal FLAC.
+Welcome to Tidal DL Bot by @iuzky please open setting for quality option -  Master - Hi-Fi - Normal - High.
 """
 
     HELP_MSG = """
