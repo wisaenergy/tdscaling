@@ -1,13 +1,13 @@
 class EN(object):
-    INIT_MSG = "<b>Hello {} Sir</b>"
+    INIT_MSG = "<b>Hi {}</b>"
 
     START_TEXT = """
-<b>Hello {} Sir</b>,
-Iam a Tidal DL Bot. Used to download songs from Tidal.
+<b>Hi {}</b>,
+Welcome to Tidal DL Bot. Bot ini Untuk Download Tidal FLAC.
 """
 
     HELP_MSG = """
-<b>Hello {} Sir</b>,
+<b>Hello {}</b>,
 
 Iam a Tidal DL Bot. Used to download songs from tidal.com.
 
@@ -33,7 +33,7 @@ Feel free to ask doubts in Discussion Group.
 """
 
     INIT_DOWNLOAD = "Trying to initialize download..."
-    FILE_EXIST = "File already exist in the channel.\n\nTitle : <code>{}</code>\n\nClick below to get file."
+    FILE_EXIST = "Songs already exist in the channel.\n\nTitle : <code>{}</code>\n\nClick below to get file."
     ALREADY_AUTH = "Your authentication is already done.\nIts is valid for {}"
     NO_AUTH = "AUTH DISABLED"
 #
@@ -55,17 +55,17 @@ Flags are :
     INLINE_NO_RESULT = "No results found"
 
     INPUT_MESSAGE_TRACK = """
-💽 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-💿 <b>Album :</b> {2}
-🕒 <b>Duration :</b> {3}
+<b>Title :</b> {0}
+<b>Artist :</b> {1}
+<b>Album :</b> {2}
+<b>Duration :</b> {3}
 """
 
     INPUT_MESSAGE_ALBUM = """
-💽 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-📀 <b>Tracks :</b> {2}
-📅 <b>Release Date :</b> {3}
+<b>Album :</b> {0}
+<b>Artist :</b> {1}
+<b>Tracks :</b> {2}
+<b>Release Date :</b> {3}
 """
 
     INLINE_MEDIA_SEARCH = """
@@ -79,12 +79,12 @@ Flags are :
 #
 #
     ALBUM_DETAILS = """
-💽 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-📅 <b>Release Date :</b> {2}
-📀 <b>Number of Tracks :</b> {3}
-🕒 <b>Duration :</b> {4}
-🔢 <b>Number of Volumes :</b> {5}
+<b>Album :</b> {0}
+<b>Artist :</b> {1}
+<b>Release Date :</b> {2}
+<b>Total Tracks :</b> {3}
+<b>Duration :</b> {4}
+<b>Number of Volumes :</b> {5}
 """
 #
 #
@@ -130,8 +130,8 @@ API Key Valid : <code>{2}</code>
 # BUTTONS
 #
 #
-    JOIN_MUSIC_STORAGE = "Join Music Storage"
-    GET_FILE = "Get File"
+    JOIN_MUSIC_STORAGE = "Join Music Channel"
+    GET_FILE = "Get Songs"
     LOGIN_TIDAL = "Click To Login"
     TG_AUTH = "TG AUTHS"
     TIDAL_AUTH = "TIDAL AUTH"
