@@ -1,14 +1,14 @@
 {
   "name": "Tidal-Dl Bot",
-  "description": "Telegram bot to download tidal songs",
+  "description": "Telegram bot download tidal flacs",
   "keywords": [
     "telegram",
     "music",
     "uploader"
   ],
-  "website": "https://github.com/vinayak-7-0-3/Tidal-DL-Telegram",
-  "repository": "https://github.com/vinayak-7-0-3/Tidal-DL-Telegram",
-  "success_url": "https://github.com/vinayak-7-0-3/Tidal-DL-Telegram",
+  "website": "https://github.com/wisaenergy/iumusic",
+  "repository": "https://github.com/wisaenergy/iumusic",
+  "success_url": "https://github.com/wisaenergy/iumusic",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Telegram bot token",
