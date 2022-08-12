@@ -130,7 +130,7 @@ API Key Valid : <code>{2}</code>
 # BUTTONS
 #
 #
-    JOIN_MUSIC_STORAGE = "Join Music Channel"
+    JOIN_MUSIC_STORAGE = "Join ZKY Music"
     GET_FILE = "Get Songs"
     LOGIN_TIDAL = "Click To Login"
     TG_AUTH = "TG AUTHS"
@@ -148,7 +148,7 @@ API Key Valid : <code>{2}</code>
     TIDAL_QUALITY_NORMAL = "NORMAL"
     # INLINE BUTTONS
     SEARCH_AGAIN = "Search Again"
-    MUSIC_C_JOIN = "Join Music Storage"
+    MUSIC_C_JOIN = "Join Group"
     LINK = "Link"
     SEARCH = "Search"
     API_KEY_BUTTON = "API KEY"
