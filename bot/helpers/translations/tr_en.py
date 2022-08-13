@@ -85,8 +85,6 @@ Flags are :
 <b>Total Tracks :</b> {3}
 <b>Duration :</b> {4}
 <b>Number of Volumes :</b> {5}
-<b>Requested by: {}</b> {6}
-<b>DUMP GROUP ZKY MUSIC (https://t.me/zkymusic)</b> {7}
 """
 #
 #
