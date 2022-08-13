@@ -17,7 +17,7 @@ Click Commands Button to see available commands.
 """
 
     CMD_LIST = """
-<b>Hello {0} Sir</b>,
+<b>Hello {0}</b>,
 
 The commands for the bot are described below:
 
@@ -85,6 +85,8 @@ Flags are :
 <b>Total Tracks :</b> {3}
 <b>Duration :</b> {4}
 <b>Number of Volumes :</b> {5}
+f'\n<b>Request by: </b>{self.tag}\n\n'
+<b>DUMP GROUP ZKY MUSIC (https://t.me/zkymusic)</b>
 """
 #
 #
