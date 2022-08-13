@@ -6,7 +6,7 @@
     "addTypeFolder": false, 
     "addYear": false, 
     "albumFolderFormat": "{ArtistName}/{Flag} {AlbumTitle} [{AlbumID}] [{AlbumYear}]", 
-    "apiKeyIndex": 3, 
+    "apiKeyIndex": 4, 
     "artistBeforeTitle": false, 
     "audioQuality": "Master", 
     "checkExist": false, 
