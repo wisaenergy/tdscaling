@@ -3,7 +3,17 @@ class EN(object):
 
     START_TEXT = """
 <b>Hi {}</b>,
-Welcome to Tidal DL Bot by @iuzky please open setting for quality option -  Master - Hi-Fi - Normal - High.
+Welcome to <b>ZKY Music</b> TIDAL FLAC Downloader Bot. 
+- <b>For Download FLAC from Tidal could be used in Group @musicsubmit only </b>
+- <b>Please Join @zkymusic and @iuzky Before Using Bot.</b>
+
+to search album see <b>Example</b> below
+➡️ @zkymusicbot -a IU
+search album by artist name from bot inline directly.
+
+to download songs use command /d tidal-link
+<b>Example Below:</b>
+        /d https://tidal.com/album/215969155
 """
 
     HELP_MSG = """
@@ -29,11 +39,23 @@ The commands for the bot are described below:
 
 Help for each command is in shown when you type the command.
 
-Feel free to ask doubts in Discussion Group.
+- <b>For Download FLAC from Tidal could be used in Group @musicsubmit only </b>
+- <b>Please Join @zkymusic and @iuzky Before Using Bot.</b>
+
+to search album see <b>Example</b> below
+➡️ @zkymusicbot -a IU
+search album by artist name from bot inline directly.
+
+to download songs use command /d tidal-link
+<b>Example Below:</b>
+        /d https://tidal.com/album/215969155
 """
 
-    INIT_DOWNLOAD = "Trying to initialize download..."
-    FILE_EXIST = "Songs already exist in the Group.\n\nTitle : <code>{}</code>\n\nClick below to get file."
+    INIT_DOWNLOAD = """㊙️ Please Wait, Downloading ......
+    
+    <b>Join Group Channel @zkymusic to get Downloaded FLAC Archive</b>
+    """
+    FILE_EXIST = "Songs already exist in the Group.\n\nTitle : <code>{}</code>\n\nClick below to get files."
     ALREADY_AUTH = "Your authentication is already done.\nIts is valid for {}"
     NO_AUTH = "AUTH DISABLED"
 #
